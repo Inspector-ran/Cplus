@@ -1,0 +1,27 @@
+# Build outputs
+/build/
+/out/
+*.o
+*.obj
+*.exe
+*.out
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+
+# IDE caches and local settings
+.vs/
+.idea/
+ipch/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+.DS_Store
+Thumbs.db
