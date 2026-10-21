@@ -4,7 +4,7 @@
 
 每题单独建立一个 `.cpp` 文件，保存到本目录，分别编译运行。初始不放答案；先独立实现，再做边界测试。
 
-输入使用 `std::cin`，输出使用 `std::cout`；不要额外打印输入提示语。检查读取结果与题目范围，非法输入返回非零退出码，无需规定错误消息。本套题使用普通数字文本，不要求额外编写任意精度解析器。
+以下 01～05 题的输入使用 `std::cin`，输出使用 `std::cout`；不要额外打印输入提示语。检查读取结果与题目范围，非法输入返回非零退出码，无需规定错误消息。本套题使用普通数字文本，不要求额外编写任意精度解析器。
 
 ## 01 基础语法：统计正数、负数和零
 
@@ -113,8 +113,20 @@ Chen 95
 
 边界：一名学生时直接输出该生；0 分、100 分均有效；并列应保留首名。使用 std::string 接收姓名，检查长度、字母范围及读取结果；不要把字符串输入当成数值输入处理。
 
+## 06～08 类与对象：学生信息渐进练习
+
+完成结构体基础后，阅读[类与对象讲义及完整题目](../07-classes/README.md#三道独立练习)。这三题使用固定数据，不要求键盘输入；各自的输出格式和边界要求以讲义为准。
+
+| 题号 | 答案文件名 | 目标 |
+| --- | --- | --- |
+| 06 | `06-student-members.cpp` | 两名学生分别调用只读成员函数 |
+| 07 | `07-student-score.cpp` | 私有成员与受控修改成绩 |
+| 08 | `08-student-constructors.cpp` | 默认及带参数构造函数 |
+
+答案文件由自己创建，保存到本目录，逐个编译运行。
+
 ## 与旧仓库如何关联
 
-[C-practise](https://github.com/Inspector-ran/C-practise) 保留教材章节作业和完整项目；[C-language](https://github.com/Inspector-ran/C-language) 保留 C11 主题学习内容。本目录只保存本页五道 C++ 配套题的解答。
+[C-practise](https://github.com/Inspector-ran/C-practise) 保留教材章节作业和完整项目；[C-language](https://github.com/Inspector-ran/C-language) 保留 C11 主题学习内容。本目录只保存本页列出的八道 C++ 配套题的解答。
 
 可以阅读 [2048](https://github.com/Inspector-ran/C-practise/tree/main/2048) 和[俄罗斯方块](https://github.com/Inspector-ran/C-practise/tree/main/C%20Tetris) 作为后续综合练习。原项目的依赖、风格和编译方式需要单独检查，不直接套用这里的 C++17 单文件命令。

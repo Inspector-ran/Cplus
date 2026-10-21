@@ -25,7 +25,10 @@
 | 3 | [函数](03-functions/README.md) | [函数重载](03-functions/overloaded_max.cpp) | 参数、返回值、重载 |
 | 4 | [指针与引用](04-pointers/README.md) | [交换变量](04-pointers/swap.cpp) | 地址、解引用、引用对照 |
 | 5 | [结构体](05-structs/README.md) | [学生信息](05-structs/student.cpp) | std::string、成员、只读引用 |
-| 6 | [练习题](06-exercises/README.md) | 五道独立练习 | 输入输出、边界测试、程序阅读 |
+| 6 | [练习题](06-exercises/README.md) | 五道基础练习 + 三道类与对象练习 | 输入输出、边界测试、程序阅读 |
+| 7 | [类与对象](07-classes/README.md) | [学生类](07-classes/student_constructor.cpp) | 成员函数、访问控制、构造函数、C/C++ 对照 |
+
+建议先学 01～05，再完成 06 的基础题，随后学习 07 并完成新增三题。
 
 ## Visual Studio 快速运行
 
@@ -67,4 +70,4 @@ g++ -std=c++17 -Wall -Wextra -Wpedantic 01-basics/variables_and_loops.cpp -o bui
 
 示例代码是起点；练习区初始只提供题目，答案由自己创建。日常编译产物统一放 build，不上传 exe 和 obj。
 
-后续根据课程安排增加字符串、类与对象、构造函数、继承、多态、文件流和 STL。当前骨架优先覆盖基础知识，不代表已经覆盖学校整门 C++ 考试大纲。
+已增加类与对象、构造函数的渐进示例与配套练习。后续根据课程安排增加字符串、继承、多态、文件流和 STL。当前骨架优先覆盖基础知识，不代表已经覆盖学校整门 C++ 考试大纲。
